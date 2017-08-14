@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UpdateMe/Classes/**/*'
+  s.source_files = 'UpdateMe/UpdateMe/Classes/**/*'
   
-  s.resources = 'UpdateMe/Assets/**/*'
+  s.resources = 'UpdateMe/UpdateMe/Assets/**/*'
 
   # Specify what libraries this depends on.
    s.libraries = [
@@ -47,18 +47,18 @@ Pod::Spec.new do |s|
      
      s.vendored_frameworks = [
        # Firebase Analytics.
-        'UpdateMe/Frameworks/Firebase/Analytics/FirebaseAnalytics.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/FirebaseInstanceID.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/GoogleUtilities.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/nanopb.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/FirebaseNanoPB.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/GoogleToolboxForMac.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/FirebaseCore.framework',
-        'UpdateMe/Frameworks/Firebase/Analytics/FirebaseCoreDiagnostics.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/FirebaseAnalytics.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/FirebaseInstanceID.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/GoogleUtilities.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/nanopb.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/FirebaseNanoPB.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/GoogleToolboxForMac.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/FirebaseCore.framework',
+        'UpdateMe/UpdateMe/Frameworks/Firebase/Analytics/FirebaseCoreDiagnostics.framework',
 
         # RemoteConfig.
-       'UpdateMe/Frameworks/Firebase/RemoteConfig/FirebaseRemoteConfig.framework',
-       'UpdateMe/Frameworks/Firebase/RemoteConfig/Protobuf.framework',
+       'UpdateMe/UpdateMe/Frameworks/Firebase/RemoteConfig/FirebaseRemoteConfig.framework',
+       'UpdateMe/UpdateMe/Frameworks/Firebase/RemoteConfig/Protobuf.framework',
      ]
      
      # LDFLAGS required by Firebase dependencies.
