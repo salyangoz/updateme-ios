@@ -1,19 +1,16 @@
 {
   "name": "UpdateMe",
-  "version": "0.1.0",
-  "summary": "\"A powerful force update library for iOS(Swift)",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/salyangoz/updateme-swift",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.0.1",
+  "summary": "A powerful force update library for iOS(Swift)",
+  "description": "A powerful force update library for Swift. Alert dialog will show when you need to force update your application. You can set this configuration with Firebase Remote anytime, anywhere.",
+  "homepage": "https://github.com/salyangoz/updateme-ios",
+  "license": "MIT",
   "authors": {
     "Salyangoz Co.": "info@salyangoz.com.tr"
   },
   "source": {
-    "git": "https://github.com/salyangoz/updateme-swift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/salyangoz/updateme-ios.git",
+    "tag": "0.0.1"
   },
   "social_media_url": "https://twitter.com/salyangoz",
   "platforms": {

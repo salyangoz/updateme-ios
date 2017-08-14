@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 
   s.description      = 'A powerful force update library for Swift. Alert dialog will show when you need to force update your application. You can set this configuration with Firebase Remote anytime, anywhere.'
 
-  s.homepage		 = 'https://github.com/salyangoz/updateme-swift'
+  s.homepage		 = 'https://github.com/salyangoz/updateme-ios'
   s.license         	 = 'MIT'
   s.author         	 = { 'Salyangoz Co.' => 'info@salyangoz.com.tr' }
-  s.source          	 = { :git => 'https://github.com/salyangoz/updateme-swift.git', :tag => s.version.to_s }
+  s.source          	 = { :git => 'https://github.com/salyangoz/updateme-ios.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/salyangoz'
 
   s.ios.deployment_target = '10.0'
