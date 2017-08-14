@@ -1,0 +1,6 @@
+use_frameworks!
+target 'UpdateMe_Tests' do
+  pod 'UpdateMe', :path => '../'
+  
+  
+end

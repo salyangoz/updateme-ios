@@ -1,0 +1,7 @@
+use_frameworks!
+platform :ios, '10.2'
+
+target 'UpdateMeSample' do
+  pod 'UpdateMe', :path => '../UpdateMe'
+  
+end

@@ -1,0 +1,19 @@
+PODS:
+  - SCLAlertView (0.7.0)
+  - UpdateMe (0.1.0):
+    - SCLAlertView
+
+DEPENDENCIES:
+  - UpdateMe (from `../`)
+
+EXTERNAL SOURCES:
+  UpdateMe:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  UpdateMe: 718ea0f13feaccf5401b14c5fa9485f1acafc5ed
+
+PODFILE CHECKSUM: 46f01a2d6fb32507c3061b830dcb1ae6ce6deaeb
+
+COCOAPODS: 1.3.1

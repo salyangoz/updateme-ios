@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KEY_UPDATE_REQUIRED</key>
+	<string>ios_update_me_required</string>
+	<key>KEY_CURRENT_VERSION</key>
+	<string>ios_update_me_current_version</string>
+	<key>KEY_UPDATE_URL</key>
+	<string>ios_update_me_store_url</string>
+	<key>KEY_DIALOG_TITLE</key>
+	<string>ios_update_me_dialog_title</string>
+	<key>KEY_DIALOG_DESCRIPTION</key>
+	<string>ios_update_me_dialog_description</string>
+</dict>
+</plist>

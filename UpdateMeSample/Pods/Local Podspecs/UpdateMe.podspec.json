@@ -1,0 +1,53 @@
+{
+  "name": "UpdateMe",
+  "version": "0.1.0",
+  "summary": "\"A powerful force update library for iOS(Swift)",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/salyangoz/updateme-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Salyangoz Co.": "info@salyangoz.com.tr"
+  },
+  "source": {
+    "git": "https://github.com/salyangoz/updateme-swift.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/salyangoz",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UpdateMe/Classes/**/*",
+  "resources": "UpdateMe/Assets/**/*",
+  "libraries": [
+    "c++",
+    "icucore",
+    "sqlite3",
+    "z"
+  ],
+  "frameworks": [
+    "UIKit"
+  ],
+  "vendored_frameworks": [
+    "UpdateMe/Frameworks/Firebase/Analytics/FirebaseAnalytics.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/FirebaseInstanceID.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/GoogleUtilities.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/nanopb.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/FirebaseNanoPB.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/GoogleToolboxForMac.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/FirebaseCore.framework",
+    "UpdateMe/Frameworks/Firebase/Analytics/FirebaseCoreDiagnostics.framework",
+    "UpdateMe/Frameworks/Firebase/RemoteConfig/FirebaseRemoteConfig.framework",
+    "UpdateMe/Frameworks/Firebase/RemoteConfig/Protobuf.framework"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
+  "dependencies": {
+    "SCLAlertView": [
+
+    ]
+  }
+}

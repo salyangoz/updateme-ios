@@ -1,0 +1,6 @@
+framework module UpdateMe {
+  umbrella header "UpdateMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
