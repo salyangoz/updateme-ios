@@ -6,7 +6,7 @@ UpdateMe
 [![Platform](https://img.shields.io/cocoapods/p/UpdateMe.svg?style=flat)](http://cocoapods.org/pods/UpdateMe)
 
 A powerful force update library for Swift. 
-![alt text](http://www.salyangoz.com.tr/updateme/sample-ios.png)
+<img src="http://www.salyangoz.com.tr/updateme/sample-ios.png" width="300">
 
 You can set Version of your app remote and show dialog to force update your app whenever you want.
 
